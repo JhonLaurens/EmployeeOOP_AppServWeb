@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EmployeeOOP.Classes
+﻿namespace EmployeeOOP.Classes
 {
-    internal class Date
+    public class Date
     {
 
 
@@ -56,7 +50,7 @@ namespace EmployeeOOP.Classes
                 throw new DayException(String.Format("El dia {0} no es valido para el mes {1}.", day, month));
             }
 
-       
+
 
         }
 
